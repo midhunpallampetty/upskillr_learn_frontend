@@ -106,3 +106,13 @@ Folder Structure
 └── vite.config.ts
 
 23 directories, 28 files
+# package.json additions (example)
+# add or ensure these exist
+# "scripts": {
+#   "dev": "vite",
+#   "build": "vite build",
+#   "preview": "vite preview",
+#   "lint": "eslint . --ext .ts,.tsx",
+#   "typecheck": "tsc --noEmit",
+#   "test": "jest --passWithNoTests"
+# }
