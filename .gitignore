@@ -1,39 +1,39 @@
-# Node modules
+# Node.js dependencies
 node_modules/
 
-# Build output
+# Vite build output
 dist/
-build/
 
-# Logs
-*.log
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
-.env
-.env.*
-
 # Vite cache
 .vite/
-
-# OS & IDE stuff
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
 
 # TypeScript
 *.tsbuildinfo
 
-# Jest coverage
+# IDE files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jest cache
+jest-cache/
+jest-reporters/
+
+# Others
 coverage/
-
-# Compiled test artifacts (only if you're compiling tests)
-__tests__/**/*.js
-__tests__/**/*.js.map
-
-# Optional: Mac files (if on macOS)
-*.DS_Store
+*.log
